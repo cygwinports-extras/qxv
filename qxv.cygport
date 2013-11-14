@@ -1,0 +1,16 @@
+inherit qt4-qmake
+
+NAME="qxv"
+VERSION=0.2
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="Qt clone of XV image viewer"
+DESCRIPTION="qxv is a basic image viewer, with an interface as close as
+possible to the old and unmaintained (and non-free) xv."
+HOMEPAGE="http://labs.freehackers.org/projects/qxv"
+SRC_URI="http://labs.freehackers.org/attachments/download/422/${NAME}-${VERSION}.tar.bz2"
+
+src_install() {
+	cd ${B}
+	dobin qxv.exe
+}

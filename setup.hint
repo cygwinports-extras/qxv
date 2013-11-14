@@ -1,5 +1,0 @@
-category: Graphics
-requires: libgcc1 libQtCore4 libQtGui4 libstdc++6
-sdesc: "Qt clone of XV image viewer"
-ldesc: "qxv is a basic image viewer, with an interface as close as 
-possible to the old and unmaintained (and non-free) xv."
